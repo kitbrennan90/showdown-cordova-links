@@ -28,7 +28,7 @@ add to the top of a script:
 Reference the extension when initalizing showdown
 
 ```javascript
-var converter = new showdown.Converter({ extensions: ['showdown-cordova-links'] });
+var converter = new showdown.Converter({ extensions: ['cordova-links'] });
 ```
 
 ### With [angular-markdown-filter](https://github.com/vpegado/angular-markdown-filter)
@@ -40,7 +40,7 @@ extension via a config provider:
 angular.module('markdown')
   .config(function(markdownProvider) {
     markdownProvider.config({
-      extensions: ['showdown-cordova-links']
+      extensions: ['cordova-links']
     });
   });
 ```
