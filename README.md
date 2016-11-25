@@ -7,6 +7,9 @@ This extension converts creates links that may be opened by the system browser o
 cordova applications.  It does this by replacing any showdown.js generated links
 with an onclick handler that calls the system browser.
 
+__NOTE:__ This extension only changes urls beginning with http or https. This is
+done to avoid changing local urls or page anchors. 
+
 
 ## Installation
 
