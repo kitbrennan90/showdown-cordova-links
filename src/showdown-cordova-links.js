@@ -30,7 +30,7 @@
     return [
       {
         type: 'output',
-        regex: /href="([^\']+)"/g,
+        regex: /href="([^"]+)"/g,
         replace: 'href="#" onclick="window.open(\'$1\', \'_system\')"',
       },
     ];
