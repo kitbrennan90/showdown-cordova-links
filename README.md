@@ -10,7 +10,7 @@ with an onclick handler that calls the system browser.
 
 ## Installation
 
-`npm install showdown-cordova-links`
+`npm install @kitbrennan90/showdown-cordova-links --save-dev`
 
 
 ## Including the extension
