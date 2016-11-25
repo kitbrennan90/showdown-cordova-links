@@ -1,6 +1,6 @@
 {
   "name": "@kitbrennan90/showdown-cordova-links",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Showdown.js extension that converts links into links that open in the system browser on cordova apps",
   "main": "./dist/showdown-cordova-links",
   "scripts": {
