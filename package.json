@@ -7,7 +7,17 @@
     "test": "gulp test"
   },
   "author": "Kit Brennan",
-  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kitbrennan90/showdown-cordova-links"
+  },
+  "keywords": [
+    "cordova",
+    "showdown",
+    "markdown",
+    "ionic"
+  ],
+  "license": "BSD-3-Clause",
   "devDependencies": {
     "chai": "^3.5.0",
     "gulp": "^3.9.1",
