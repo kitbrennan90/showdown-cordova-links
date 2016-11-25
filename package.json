@@ -1,0 +1,21 @@
+{
+  "name": "@kitbrennan90/showdown-cordova-links",
+  "version": "1.0.0",
+  "description": "Showdown.js extension that converts links into links that open in the system browser on cordova apps",
+  "main": "./dist/showdown-cordova-links",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "author": "Kit Brennan",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "gulp": "^3.9.1",
+    "gulp-jscs": "^4.0.0",
+    "gulp-jshint": "^2.0.4",
+    "gulp-mocha": "^3.0.1",
+    "jshint": "^2.9.4",
+    "mocha": "^3.2.0",
+    "showdown": "^1.5.0"
+  }
+}
