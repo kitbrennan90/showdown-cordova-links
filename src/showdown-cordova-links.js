@@ -30,8 +30,8 @@
     return [
       {
         type: 'output',
-        regex: /href="([^\"]*)"/gi,
-        replace: 'href="#" onclick="window.open(\'$1\', \'_system\')"',
+        regex: /href="http:([^\"]*)"/gi,
+        replace: 'href="#" onclick="window.open(\'http:$1\', \'_system\')"',
       },
     ];
   });
